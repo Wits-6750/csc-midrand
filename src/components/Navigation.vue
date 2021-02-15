@@ -18,35 +18,35 @@
                     <router-link 
                         to="focus_areas"
                         class="navbar-item"
-                        :class="route=== 'home'? 'has-text-white':''"  >
-                        focus areas
+                        :class="route=== 'home'? 'has-text-white':'has-text-black'"  >
+                        <span :class="route=== 'focus_areas' ? 'active-nav':''">focus areas</span>
                     </router-link >
                     <router-link 
                         to="focus_areas"
                         class="navbar-item"
-                        :class="route=== 'home'? 'has-text-white':''"  >
+                        :class="route=== 'home'? 'has-text-white':'has-text-black'"  >
                         get involved
                     </router-link >                   
                      <router-link 
                         to="focus_areas"
                         class="navbar-item"
-                        :class="route=== 'home'? 'has-text-white':''"  >
+                        :class="route=== 'home'? 'has-text-white':'has-text-black'"  >
                         about us
                     </router-link >                  
                       <router-link 
                         to="focus_areas"
                         class="navbar-item"
-                        :class="route=== 'home'? 'has-text-white':''"  >
+                        :class="route=== 'home'? 'has-text-white':'has-text-black'"  >
                         contact us
                     </router-link >
                     <div class="navbar-item">
                         <div class="field is-grouped">
                             <p class="control">
                                 <a 
-                                    :class="route=== 'home'? 'has-text-white':''" 
+                                    :class="route=== 'home'? 'has-text-white':'has-text-black'" 
                                     target="_blank" 
                                     href="https://www.facebook.com/CSC-Midrand-Caring-for-Families-and-Children-111990237190793/">
-                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-facebook-square"></i>
                                </a>
                             </p>
                         </div>
@@ -80,6 +80,11 @@ export default {
 
 .is-transparent {
     background-color: rgba(255, 255, 255, 0);
+}
+
+.active-nav {
+    border-bottom: black solid 1px;
+    width: 90px;
 }
 
 </style>

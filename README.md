@@ -1,4 +1,4 @@
-# csc_midrand
+# csc-midrand
 
 ## Project setup
 ```
