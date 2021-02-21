@@ -7,13 +7,17 @@
                 <a class="navbar-item logo-wrapper" href="/">
                     <img src="@/assets/img/Logo.svg" alt="" >
                 </a>
-                <div class="navbar-burger" data-target="navbar-mini">
-                <span></span>
-                <span></span>
-                <span></span>
+                <div 
+                    class="navbar-burger"
+                    :class="{'is-active':is_menu_active}"
+                    @click="is_menu_active=!is_menu_active"
+                    data-target="navbar-mini">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
-            <div id="navbar-mini" class="navbar-menu">
+            <div id="navbar-mini" class="navbar-menu" :class="{'is-active':is_menu_active}">
                 <div class="navbar-end link-item">
                     <router-link 
                         to="focus_areas"
@@ -61,6 +65,11 @@
 export default {
     props: {
         route: String
+    },
+    data (){
+        return {
+          is_menu_active: false
+        }
     }
 }
 </script>

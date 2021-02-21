@@ -6,19 +6,17 @@ import Home from './components/Home.vue'
 // Focus Areas
 import FocusAreas from "./components/FocusAreas.vue"
 Vue.use(Router)
-
 const router = new Router(
     {
-        mode: 'history',
         routes: [
             {
-                path:'/',
+                path:`/`,
                 name: 'home',
                 component: Home
 
             },
             {
-                path:'/focus_areas',
+                path:`/focus_areas/`,
                 name: 'focus_areas',
                 component: FocusAreas
             }
