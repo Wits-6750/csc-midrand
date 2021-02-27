@@ -26,10 +26,10 @@
                         <span :class="route=== 'focus_areas' ? 'active-nav':''">focus areas</span>
                     </router-link >
                     <router-link 
-                        to="focus_areas"
+                        to="get_involved"
                         class="navbar-item"
                         :class="route=== 'home'? 'has-text-white':'has-text-black'"  >
-                        get involved
+                        <span :class="route=== 'get_involved' ? 'active-nav':''">get involved</span>
                     </router-link >                   
                      <router-link 
                         to="focus_areas"

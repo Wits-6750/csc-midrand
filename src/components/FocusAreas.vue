@@ -17,7 +17,7 @@
                     </div>  
                 </div>
                 <div class="column is-6">
-                    <img class="focus_areas_img_height " src="@/assets/img/image_2.jpg">
+                    <img class="focus_areas_img_height " src="@/assets/img/image_7.jpg">
                 </div>
             </div>
             <div class="columns reverse">
@@ -88,36 +88,15 @@ export default {
 
 
 <style scoped>
-.left-header{
-    display: inline-flex;
-}
 
-.circle-count{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-    border: 1px solid #000;
-    color: #000;
-    text-align: center;
-    font-size: 25px 
-}
-
-.statement {
-    letter-spacing: 0.03rem;
-    text-transform: capitalize;
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 13px;
-    line-height: 30px;
-}
-.focus_areas_img_height {
-    height: 35rem;
-    display:block;
-    margin:auto;
-}
-    .reverse {
-        flex-direction: row-reverse !important
+    .focus_areas_img_height {
+        height: 35rem;
+        display:block;
+        margin:auto;
     }
+    .reverse {
+            flex-direction: row-reverse !important
+        }
 @media only screen and (max-width: 769px) {
     .focus_areas_img_height {
         display:block;

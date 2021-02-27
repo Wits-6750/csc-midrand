@@ -5,20 +5,30 @@ import Router from 'vue-router'
 import Home from './components/Home.vue'
 // Focus Areas
 import FocusAreas from "./components/FocusAreas.vue"
+
+// Get Involved
+import GetInvolved from "./components/GetInvolved.vue"
+
 Vue.use(Router)
 const router = new Router(
     {
         routes: [
             {
-                path:`/`,
+                path:'/',
                 name: 'home',
                 component: Home
 
             },
             {
-                path:`/focus_areas/`,
+                path:'/focus_areas/',
                 name: 'focus_areas',
                 component: FocusAreas
+            },
+
+            {
+                path:'/get_involved/',
+                name: 'get_involved',
+                component: GetInvolved
             }
         ]
     }
