@@ -1,14 +1,13 @@
 <template>
     <div id="home">
-        <section class="section home-wrapper p-0">
+        <section class="section home-wrapper p-0" >
             <Navigation :route="'home'"/>
             <div class="hero-wrapper">
-                <div class="columns is-height-100 is-align-items-center m-0 mobile-background-img">
+                <div class="columns is-align-items-center m-0 mobile-background-img">
                     <div class="column ">
-                        <h1 class="header pl-6 mt-6 pb-6 is-size-2-mobile ">
+                        <h1 class="header pl-6 pb-6 is-size-3-mobile ">
                             Providing <br>
-                            Services to the<br>
-                            <span>Community</span>
+                            Services to the <span>Community</span>
                         </h1>
                         <h2 class="subtitle is-size-6 pl-6 pb-4">
                             To empower children and families by being the  most effective and efficient Social Service provider in the Midrand area (<span>Ivory Park, Ebony Park and Kaalfontein</span>) in the Johannesburg Metro Municipality.
@@ -19,8 +18,8 @@
                         </div>
                     </div>
                     <div class="column p-0 is-hidden-mobile">
-                        <figure class="image">
-                            <img class="is-height-100" src="@/assets/img/image_1.jpg">
+                        <figure class="image is-4by5">
+                            <img class="" src="@/assets/img/image_1.jpg">
                         </figure>
                     </div>
                 </div>
@@ -41,19 +40,9 @@ export default {
 
 
 <style scoped>
-    .home-wrapper {
-        height: 100vh;
-    }
-    .hero-wrapper {
-        position: absolute;
-        top: 0;
-        height: 50vh;
-        width: 100% ;
-    }
-    .is-height-100 {
-        height: 100vh;
-        display:flex
-    }
+
+  
+
 
     .header {
         font-size: 40px;
@@ -88,6 +77,10 @@ export default {
                        rgba(0, 0, 0, 0.4)), url('../assets/img/image_1.jpg');
         background-repeat: repeat;
         background-size: cover;
+        height: inherit;
+    }
+    .hero-wrapper {
+        height: 100vh;
     }
 
 }

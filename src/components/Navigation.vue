@@ -4,9 +4,9 @@
           :class="route==='home' ? 'is-transparent':''"
            class="navbar pl-6 pr-2">
             <div class="navbar-brand">
-                <a class="navbar-item logo-wrapper" href="/">
-                    <img src="@/assets/img/Logo.svg" alt="" >
-                </a>
+                <router-link to="/" class="navbar-item logo-wrapper">
+                <img src="@/assets/img/Logo.svg" alt="" >
+                </router-link>
                 <div 
                     class="navbar-burger"
                     :class="{'is-active':is_menu_active}"
@@ -21,33 +21,29 @@
                 <div class="navbar-end link-item">
                     <router-link 
                         to="focus_areas"
-                        class="navbar-item"
-                        :class="route=== 'home'? 'has-text-white':'has-text-black'"  >
+                        class="navbar-item has-text-black">
                         <span :class="route=== 'focus_areas' ? 'active-nav':''">focus areas</span>
                     </router-link >
                     <router-link 
                         to="get_involved"
-                        class="navbar-item"
-                        :class="route=== 'home'? 'has-text-white':'has-text-black'"  >
+                        class="navbar-item has-text-black">
                         <span :class="route=== 'get_involved' ? 'active-nav':''">get involved</span>
                     </router-link >                   
                      <router-link 
                         to="focus_areas"
-                        class="navbar-item"
-                        :class="route=== 'home'? 'has-text-white':'has-text-black'"  >
+                        class="navbar-item has-text-black">
                         about us
                     </router-link >                  
                       <router-link 
                         to="focus_areas"
-                        class="navbar-item"
-                        :class="route=== 'home'? 'has-text-white':'has-text-black'"  >
+                        class="navbar-item has-text-black">
                         contact us
                     </router-link >
                     <div class="navbar-item">
                         <div class="field is-grouped">
                             <p class="control">
                                 <a 
-                                    :class="route=== 'home'? 'has-text-white':'has-text-black'" 
+                                    class="has-text-black"
                                     target="_blank" 
                                     href="https://www.facebook.com/CSC-Midrand-Caring-for-Families-and-Children-111990237190793/">
                                     <i class="fa fa-facebook-square"></i>

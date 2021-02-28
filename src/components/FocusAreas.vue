@@ -17,7 +17,7 @@
                     </div>  
                 </div>
                 <div class="column is-6">
-                    <img class="focus_areas_img_height " src="@/assets/img/image_7.jpg">
+                    <img class="focus_areas_img_height " src="@/assets/img/image_2.jpg">
                 </div>
             </div>
             <div class="columns reverse">
@@ -65,7 +65,7 @@
                         <p class="statement">Community work projects are based on data of a community, such as origin and development, demographic data and tendencies, nature of social institutions, availability and accessibility of resources, incidence and range of social problems as well as the potential of people. This data is used for developing and implementing social welfare programmes, community projects and programmes for community development. </p>
                     </div>  
                 </div>
-                <div class="column is-6">
+                <div class="column is-6 is-mobile">
                     <img class="focus_areas_img_height " src="@/assets/img/image_5.jpg">
                 </div>
             </div>
@@ -103,8 +103,5 @@ export default {
         margin:auto;
 
     }
-
-
-
 }
 </style>
