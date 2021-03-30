@@ -42,8 +42,6 @@ export default {
 <style scoped>
 
   
-
-
     .header {
         font-size: 40px;
         font-weight: 500;

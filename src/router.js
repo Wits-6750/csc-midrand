@@ -9,6 +9,8 @@ import FocusAreas from "./components/FocusAreas.vue"
 // Get Involved
 import GetInvolved from "./components/GetInvolved.vue"
 
+// Contact US
+import ContactUS from "./components/ContactUS.vue"
 Vue.use(Router)
 const router = new Router(
     {
@@ -24,11 +26,15 @@ const router = new Router(
                 name: 'focus_areas',
                 component: FocusAreas
             },
-
             {
                 path:'/get_involved/',
                 name: 'get_involved',
                 component: GetInvolved
+            },
+            {
+                path:'/contact_us',
+                name: 'contact_us',
+                component: ContactUS        
             }
         ]
     }

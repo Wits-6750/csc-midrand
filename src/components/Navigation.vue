@@ -35,7 +35,7 @@
                         about us
                     </router-link >                  
                       <router-link 
-                        to="focus_areas"
+                        to="contact_us"
                         class="navbar-item has-text-black">
                         contact us
                     </router-link >

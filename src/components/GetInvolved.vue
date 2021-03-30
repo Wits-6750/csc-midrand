@@ -68,7 +68,7 @@
             </div>
             <div class="skilled-help">
                 <h1 class="is-size-2 is-size-5-mobile has-text-centered has-text-white pt-5 pl-3 pr-3 has-text-weight-bold is-uppercase">Professional People are needed<br> to help manage the organisation </h1>
-                <h2 class="has-text-weight-light  has-text-white has-text-centered pt-5 pr-4 pl-4">you can volunteer your time and share skills such as<br> financial, human resources, marketing or fundraising<br> knowledge or experience  </h2>
+                <h2 class="has-text-weight-light has-text-white has-text-centered pt-5 pr-4 pl-4">you can volunteer your time and share skills such as<br> financial, human resources, marketing or fundraising<br> knowledge or experience  </h2>
                 <div class="m-6 skill-list">
                     <div class="circle-count white-border">4</div> 
                     <h1 class="title has-text-weight-medium ml-3 mt-2 has-text-white is-uppercase">Skilled Helped</h1>
@@ -122,7 +122,9 @@ export default {
         line-height: 190%;
         letter-spacing: 0.07em;
     }
-
+    img { 
+        object-fit: cover;
+    }
     .volunteering {
         background-color: #B75451;
     }
@@ -171,8 +173,10 @@ export default {
 
     @media only screen and (max-width: 769px) {
         ul {
-            
             display: grid;
-                }
+        }
+        .skilled-help  p {
+            font-size: 0.7rem;
+        }
     }
 </style>

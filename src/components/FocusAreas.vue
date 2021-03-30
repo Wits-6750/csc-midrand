@@ -94,6 +94,9 @@ export default {
         display:block;
         margin:auto;
     }
+    img {
+        object-fit: contain;
+    }
     .reverse {
             flex-direction: row-reverse !important
         }
