@@ -30,14 +30,14 @@
                         <span :class="route=== 'get_involved' ? 'active-nav':''">get involved</span>
                     </router-link >                   
                      <router-link 
-                        to="focus_areas"
+                        to="about_us"
                         class="navbar-item has-text-black">
-                        about us
+                        <span :class="route=== 'about_us' ? 'active-nav':''">about us</span>
                     </router-link >                  
                       <router-link 
                         to="contact_us"
                         class="navbar-item has-text-black">
-                        contact us
+                        <span :class="route=== 'contact_us' ? 'active-nav':''">contact us</span>
                     </router-link >
                     <div class="navbar-item">
                         <div class="field is-grouped">

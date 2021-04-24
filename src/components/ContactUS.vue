@@ -1,7 +1,7 @@
 <template>
     <div id="contact_us" >
        <Navigation :route="'contact_us'" />
-       <div class="columns is-align-self-center">
+       <div class="columns">
            <div class="column is-6">
                <h1 class="header is-size-2 is-size-4-mobile">Together We Create Change in our community</h1>
                <p class="mt-6 subtext"> <span class="" >Prisca Mathabatha</span> (Social Work Manager)<br> 076-699-2630</p>
@@ -30,7 +30,9 @@
                 </div>
            </div>
            <div class="column is-6">
-                <img class="" src="@/assets/img/image_9.jpg">
+               <figue class="image m-6">
+                    <img class="" src="@/assets/img/image_9.jpg">
+               </figue>
            </div>
        </div>
 

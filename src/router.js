@@ -11,6 +11,9 @@ import GetInvolved from "./components/GetInvolved.vue"
 
 // Contact US
 import ContactUS from "./components/ContactUS.vue"
+
+// About US
+import AboutUS from "./components/AboutUS.vue"
 Vue.use(Router)
 const router = new Router(
     {
@@ -35,6 +38,11 @@ const router = new Router(
                 path:'/contact_us',
                 name: 'contact_us',
                 component: ContactUS        
+            },
+            {
+                path:'/about_us',
+                name: 'about_us',
+                component: AboutUS        
             }
         ]
     }
