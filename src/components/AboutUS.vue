@@ -21,19 +21,22 @@
                 <img src="@/assets/img/image_10.jpg">
             </figure>
         </div>
+        <Footer />
     </div>
+    
 </template>
 
 
 <script>
 import Navigation from './Navigation.vue'
-
+import Footer from './Footer.vue'
 export default {
     components:{
-        Navigation
+        Navigation,
+        Footer
     }
+    
 }
-
 </script>
 <style scoped>
     .title {
